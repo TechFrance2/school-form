@@ -5,12 +5,9 @@ body {
 .h1 {
   background-color: aliceblue;
 }
-
-.container {
-  padding-left: 40px;
+.container{
+  padding-left: 50px;
 }
-
-
 .field {
   width: 100%;
   height: 56px;
