@@ -26,21 +26,21 @@ class App extends React.Component {
       <form className= "container">
         <h1>School Application Form </h1>
       <br />
-        <input
+        <input className= "field"
           type= "text"
           value= {this.state.value} 
           name = "firstName"
           placeholder= "First Name"
           onChange= {this.handleChange} />
-      <br />
-        <input 
+     <br/>
+        <input className="field"
           type= "text"
           value= {this.state.value} 
           name= "lastName" 
           placeholder= "Last Name" 
           onChange= {this.handleChange} /> 
       <br />
-        <input 
+        <input className="field"
           type= "text"
           value= {this.state.value}
           name = "email"
@@ -48,7 +48,7 @@ class App extends React.Component {
           onChange= {this.handleChange} />
 
       <br />
-        <input 
+        <input className="field"
           type= "text"
           value= {this.state.value}
           name = "cellNumber"

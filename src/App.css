@@ -9,11 +9,11 @@ body {
   padding-left: 50px;
 }
 .field {
-  width: 100%;
-  height: 56px;
+  width: 30%;
+  height: 26px;
   border-radius: 4px;
   position: relative;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: white;
   transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out;
 }
 
